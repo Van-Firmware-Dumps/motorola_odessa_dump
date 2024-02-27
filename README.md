@@ -1,0 +1,14 @@
+# odessa_retail-user 11 RPAS31.Q2-59-17-4-5-5 af8e3 release-keys
+- manufacturer: motorola
+- platform: sm6150
+- codename: odessa
+- flavor: odessa_retail-user
+- release: 11
+- id: RPAS31.Q2-59-17-4-5-5
+- incremental: af8e3
+- tags: release-keys
+- fingerprint: motorola/odessa_retail/odessa:11/RPAS31.Q2-59-17-4-5-5/af8e3:user/release-keys
+- is_ab: true
+- brand: motorola
+- branch: odessa_retail-user-11-RPAS31.Q2-59-17-4-5-5-af8e3-release-keys
+- repo: motorola_odessa_dump
