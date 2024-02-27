@@ -1,0 +1,69 @@
+<xml>
+    <ctbk_version>15</ctbk_version>
+    <wifi_tx_pwr>
+        <Default_5GHZ   index="0">16</Default_5GHZ> <!--5G, Max power-->
+        <State1_5GHZ    index="1">5</State1_5GHZ>  <!--5G,WLAN+WWAN-->
+        <State2_5GHZ    index="2">5</State2_5GHZ>  <!--5G,MHS, WLAN+WAN-->
+        <Default_2GHZ   index="3">18</Default_2GHZ> <!--2G, Max power-->
+        <State1_2GHZ    index="4">13</State1_2GHZ> <!--2G,WLAN+WWAN-->
+        <State2_2GHZ    index="5">13</State2_2GHZ> <!--2G,MHS, WLAN+WAN-->
+        <State4_5GHZ    index="6">16</State4_5GHZ>  <!--5G,At head, WLAN only-->
+        <State5_5GHZ    index="7">5</State5_5GHZ>  <!--5G,At head, WLAN+WWAN-->
+        <State6_5GHZ    index="8">9</State6_5GHZ>  <!--5G,Body-Worn, WLAN only-->
+        <State7_5GHZ    index="9">5</State7_5GHZ>  <!--5G,Body-Worn, WLAN+WWAN-->
+        <State4_2GHZ    index="10">17</State4_2GHZ>  <!--2G,At head, WLAN only-->
+        <State5_2GHZ    index="11">13</State5_2GHZ>  <!--2G,At head, WLAN+WWAN-->
+        <State6_2GHZ    index="12">18</State6_2GHZ>  <!--2G,Body-Worn, WLAN only-->
+        <State7_2GHZ    index="13">13</State7_2GHZ>  <!--2G,Body-Worn, WLAN+WWAN-->
+    </wifi_tx_pwr>
+    <wifi_tx_pwr_fem>
+        <Default_5GHZ   index="0">22</Default_5GHZ> <!--5G, Max power-->
+        <State1_5GHZ    index="1">22</State1_5GHZ>  <!--5G,WLAN+WWAN-->
+        <State2_5GHZ    index="2">22</State2_5GHZ>  <!--5G,MHS, WLAN+WAN-->
+        <Default_2GHZ   index="3">22</Default_2GHZ> <!--2G, Max power-->
+        <State1_2GHZ    index="4">22</State1_2GHZ> <!--2G,WLAN+WWAN-->
+        <State2_2GHZ    index="5">22</State2_2GHZ> <!--2G,MHS, WLAN+WAN-->
+        <State4_5GHZ    index="6">22</State4_5GHZ>  <!--5G,At head, WLAN only-->
+        <State5_5GHZ    index="7">22</State5_5GHZ>  <!--5G,At head, WLAN+WWAN-->
+        <State6_5GHZ    index="8">22</State6_5GHZ>  <!--5G,Body-Worn, WLAN only-->
+        <State7_5GHZ    index="9">22</State7_5GHZ>  <!--5G,Body-Worn, WLAN+WWAN-->
+        <State4_2GHZ    index="10">22</State4_2GHZ>  <!--2G,At head, WLAN only-->
+        <State5_2GHZ    index="11">22</State5_2GHZ>  <!--2G,At head, WLAN+WWAN-->
+        <State6_2GHZ    index="12">22</State6_2GHZ>  <!--2G,Body-Worn, WLAN only-->
+        <State7_2GHZ    index="13">22</State7_2GHZ>  <!--2G,Body-Worn, WLAN+WWAN-->
+    </wifi_tx_pwr_fem>
+    <wifi_tx_pwr_5g_split_band>
+        <Band1_5GHZ_At_Head   index="0">16</Band1_5GHZ_At_Head>
+        <Band2_5GHZ_At_Head   index="1">16</Band2_5GHZ_At_Head>
+        <Band3_5GHZ_At_Head   index="2">16</Band3_5GHZ_At_Head>
+        <Band4_5GHZ_At_Head   index="3">14</Band4_5GHZ_At_Head>
+        <Band1_5GHZ_Body_Worn   index="4">9</Band1_5GHZ_Body_Worn>
+        <Band2_5GHZ_Body_Worn   index="5">9</Band2_5GHZ_Body_Worn>
+        <Band3_5GHZ_Body_Worn   index="6">9</Band3_5GHZ_Body_Worn>
+        <Band4_5GHZ_Body_Worn   index="7">9</Band4_5GHZ_Body_Worn>
+    </wifi_tx_pwr_5g_split_band>
+    <wifi_tx_pwr_fem_5g_split_band>
+        <Band1_5GHZ_At_Head   index="0">22</Band1_5GHZ_At_Head>
+        <Band2_5GHZ_At_Head   index="1">22</Band2_5GHZ_At_Head>
+        <Band3_5GHZ_At_Head   index="2">22</Band3_5GHZ_At_Head>
+        <Band4_5GHZ_At_Head   index="3">22</Band4_5GHZ_At_Head>
+        <Band1_5GHZ_Body_Worn   index="4">22</Band1_5GHZ_Body_Worn>
+        <Band2_5GHZ_Body_Worn   index="5">22</Band2_5GHZ_Body_Worn>
+        <Band3_5GHZ_Body_Worn   index="6">22</Band3_5GHZ_Body_Worn>
+        <Band4_5GHZ_Body_Worn   index="7">22</Band4_5GHZ_Body_Worn>
+    </wifi_tx_pwr_fem_5g_split_band>
+    <wifi_fem_sku_radio_id_list>
+        <Radio_id            index="0">na</Radio_id>
+    </wifi_fem_sku_radio_id_list>
+    <sar_sensors>
+        <sensor type="prox_front"           index="0">stk_stk3a5x Proximity Sensor Wakeup</sensor>
+        <sensor type="prox_back"            index="1">null</sensor>
+        <!--from front view-->
+        <sensor type="cap_bottom_center"    index="2">capsense_bottom</sensor>
+        <sensor type="cap_bottom_right"     index="3">null</sensor>
+        <sensor type="cap_top_left"         index="4">capsense_top_left</sensor>
+        <sensor type="cap_top_right"        index="5">capsense_top_right</sensor>
+    </sar_sensors>
+    <!--OB5 config: 9 = 00001001b (capsense_bottom CS4|capsense_top_right CS0)-->
+    <ob5_sensor_config>9</ob5_sensor_config>
+</xml>
